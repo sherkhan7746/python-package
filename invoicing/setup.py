@@ -11,7 +11,7 @@ setup(
   author_email = 'sherkhan1167746@gmail.com',  # Your email
   url = 'https://github.com/sherkhan7746/python-package.git',              # Homepage of your library (e.g. github or your website)
   keywords = ['invoice', 'excel', 'pdf'],   # Keywords users can search on pypi.org
-  install_requires=['fpdf', 'openpyxl'],                 # Other 3rd-party libs that pip needs to install
+  install_requires=["pandas",'fpdf', 'openpyxl'],                 # Other 3rd-party libs that pip needs to install
   classifiers=[
     'Development Status :: 3 - Alpha',          # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers',          # Who is the audience for your library?
